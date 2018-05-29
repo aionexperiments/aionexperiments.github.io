@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Figures</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">Aion</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="stats.html">Stats</a></li>
+					<li><a href="data.html">Data</a></li
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Interactive Figures</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<header>
+							<h2>Static Experiments</h2>
+						</header>
+						<header>
+							<h3>Visualizations</h3>
+						</header>
+						<p>We used plotly to visualize in 2-D and 3-D the relationship between different malicious and benign apps in both Malgenome+Gplay and Piggybacking datasets. Using different types of static features, we projected the feature vectors into 2 and 3 dimensions using the visualization algorithm t-SNE. You can interact with plotly figures, rotate them, zoom in/out, filter out a certain type of datapoints using the legen on the top right, and download the figures in HTML/PNG format.</p>
+                        <header><h4>Malgenome+GPlay Dataset</h4></header>
+                        <ul class="alt">
+						    <li><b>Malgenome+GPlay</b> All Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/all_static_features_in_2d.html" class="button small icon fa-search">View</a></li>
+						    <li><b>Malgenome+GPlay</b> All Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/all_static_features_in_3d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> API Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/api_static_features_in_2d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> API Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/api_static_features_in_3d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> Basic Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/basic_static_features_in_2d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> Basic Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/basic_static_features_in_3d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> Permission-based Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/permission-based_static_features_in_2d.html" class="button small icon fa-search"></a></li>
+						    <li><b>Malgenome+GPlay</b> Permission-based Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/malgenome_viz/permission-based_static_features_in_3d.html" class="button small icon fa-search"></a></li>
+						</ul>
+                        <header><h4>Piggybacking Dataset</h4></header>
+                        <ul class="alt">
+						    <li><b>Piggybacking</b> All Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/all_static_features_in_2d.html" class="button primary small icon fa-search">View</a></li>
+						    <li><b>Piggybacking</b> All Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/all_static_features_in_3d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> API Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/api_static_features_in_2d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> API Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/api_static_features_in_3d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> Basic Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/basic_static_features_in_2d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> Basic Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/basic_static_features_in_3d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> Permission-based Static Features in 2-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/permission-based_static_features_in_2d.html" class="button primary small icon fa-search"></a></li>
+						    <li><b>Piggybacking</b> Permission-based Static Features in 3-D&nbsp;&nbsp;&nbsp; <a href="figs/static/piggybacking_viz/permission-based_static_features_in_3d.html" class="button primary small icon fa-search"></a></li>
+						</ul>
+                        </hr>
+						<header>
+							<h3>Line Plots</h3>
+						</header>
+                        <p>The following figures are also interactive similar to the visualization figures. The next set of figures comprises line plots that compare the performance (in terms of the median F1 and specificity scores) of different classifiers and static feature types on both datasets after 25 runs. The figures mimic those in the paper and are based on the data downloadable from the <a href="stats.html">Stats</a> page.</p>
+                        <ul class="alt">
+                            <li><b>Malgenome+GPlay</b> line plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/malgenome_static_train_line.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Malgenome+GPlay</b> line plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/malgenome_static_test_line.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> line plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/piggybacking_static_train_line.html" class="button primary small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> line plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/piggybacking_static_test_line.html" class="button primary small icon fa-search">View</a></li>
+                        </ul>
+                        </hr>
+						<header>
+							<h3>Box Plots</h3>
+						</header>
+                        <p>Given that we conducted the static experiment for 25 times per dataset, we also generated box and whiskers plots to have an idea about the deviation of F1 and specificity scores across different runs, especially since each run randomly splits the dataset into training and test datasets</p>
+                        <ul class="alt">
+                            <li><b>Malgenome+GPlay</b> box plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/malgenome_static_train_box.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Malgenome+GPlay</b> box plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/malgenome_static_test_box.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> box plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/piggybacking_static_train_box.html" class="button primary small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> box plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/static/html/piggybacking_static_test_box.html" class="button primary small icon fa-search">View</a></li>
+                        </ul>
+                        </hr>
+                        <!-- Dynamic + Active experiments -->
+						<header>
+							<h2>Dynamic Experiments</h2>
+						</header>
+                        <p>The following figures sum up the performance of different classifiers on the very first iteration of the active learning experiments using dynamic and hybrid features. We also plot the performance of the best scoring static features (permission-based) to compare all feature types.</p>
+                        <ul class="alt">
+                            <li><b>Piggybacking</b> scatter plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/dynamic/html/Piggybacking_TRAIN_scatter.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> scatter plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/dynamic/html/Piggybacking_TEST_scatter.html" class="button primary small icon fa-search">View</a></li>
+                         <li><b>Piggybacking</b> box plot on <i>training</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/dynamic/html/Piggybacking_preliminary_f1spec_TRAIN_box.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Piggybacking</b> box plot on <i>test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/dynamic/html/Piggybacking_preliminary_f1spec_TEST_box.html" class="button primary small icon fa-search">View</a></li>
+                        </ul>
+                        </hr>
+						<header>
+							<h2>Active Learning Experiments</h2>
+						</header>
+                        <p>We wrote a tool to generate line and box plots for each classifier (out of 13), and each score type (TRAIN and TEST). It is very tedious to list all of them on this website. So, we provide a link to the Python script that generates such plots. The <a href="results/dynamic/generateActiveFigs.py">script</a> needs access to the SQLite database and static permission-based scores available <a href="stats.html">here</a>. Here is an example of how the script can be invoked:</p>
+                        <pre><code>python generateActiveFigs.py --database aion_piggy_25runs.db --datasetname Piggybacking --plotter plotly --color rgb --width 1024 --height 600 --figure line --learner Ensemble --scoretype TEST</code></pre>
+                        <br/>
+                        <p>The following figures, however, are similar to the ones in the paper i.e. they are line and box plots of the F1 and specificity scores achieved by the 500-NN, Ensemble, and 100-Tree Random Forest classifiers on Piggybacking's test datasets after 25 runs.</p>
+                        <ul class="alt">
+                            <li><b>K-NN (K=500)</b> line plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_KNN500_line.html" class="button small icon fa-search">View</a></li>
+                            <li><b>K-NN (K=500)</b> box plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_KNN500_box.html" class="button primary small icon fa-search">View</a></li>
+                            <li><b>Ensemble</b> line plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_Ensemble_line.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Ensemble</b> box plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_Ensemble_box.html" class="button primary small icon fa-search">View</a></li>
+                            <li><b>Random Forest (T=100)</b> line plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_Trees100_line.html" class="button small icon fa-search">View</a></li>
+                            <li><b>Random Forest (T=100)</b> box plot on <i>train+test</i> datasets&nbsp;&nbsp;&nbsp;<a href="figs/active/html/Piggybacking_Active_Trees100_box.html" class="button primary small icon fa-search">View</a></li>
+                        </ul>
+                </section>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

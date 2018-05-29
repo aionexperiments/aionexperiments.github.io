@@ -1,0 +1,27 @@
+-----------------------------------
+| Evolution of Repackaged Malware |
+-----------------------------------
+
+[*] The following numbers show that there is a big shift towards using benign apps and repackaging them rather than writing a malware instance from scratch.
+
+-----------------------------------------------------------
+|   Dataset   | dx  | dexmerge | dexlib 1.X + 2.X | Total |
+-----------------------------------------------------------
+|  MalGenome  | 52% |    --    |        48%       |  1234 |
+-----------------------------------------------------------
+|    Drebin*  | 84% |    --    |        16%       |  4326 |
+-----------------------------------------------------------
+| Play Store  | 61% |    34%   |        5%        |  1882 |
+-----------------------------------------------------------
+| Piggy (mal) | 22% |    6%    |        71%       |  1399 |
+-----------------------------------------------------------
+| Piggy (good)| 61% |    22%   |        17%       |  1355 |
+-----------------------------------------------------------
+
+* Drebin comprises 5,560 samples that have been collected in the period of August 2010 to October 2012.
+
+-------------------------
+| Static classification |
+-------------------------
+
+[*] Seen "Aion Results" on Google Drive

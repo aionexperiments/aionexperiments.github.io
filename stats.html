@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Stats and Results</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">Aion</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="figures.html">Figures</a></li>
+					<li><a href="data.html">Data</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Stats and Results</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+                        <header>
+                            <h2>APKiD Stats</h2>
+                        </header>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Dataset</th>
+										<th>dx</th>
+										<th>dexmerge</th>
+										<th>dexlib 1.X/2.X</th>
+										<th>Total</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Drebin (minus Malgenome)</td>
+										<td>52%</td>
+										<td>--</td>
+										<td>48%</td>
+										<td>4326</td>
+									</tr>
+									<tr>
+										<td>Malgenome</td>
+										<td>84%</td>
+										<td>--</td>
+										<td>16%</td>
+										<td>1234</td>
+									</tr>
+									<tr>
+										<td>GPlay</td>
+										<td>61%</td>
+										<td>34</td>
+										<td>5%</td>
+										<td>1882</td>
+									</tr>
+									<tr>
+										<td>Piggybacking (original)</td>
+										<td>61%</td>
+										<td>22%</td>
+										<td>17%</td>
+										<td>1355</td>
+									</tr>
+									<tr>
+										<td>Piggybacking (piggybacked)</td>
+										<td>22%</td>
+										<td>6%</td>
+										<td>71%</td>
+										<td>1399</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+                        </hr>        
+						<header>
+							<h2>Features</h2>
+						</header>
+                        <header>
+                            <h3>Static Features</h3>
+                        </header>
+					<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Category</th>
+										<th>Feature</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+								        <td rowspan="6">basic</td>
+                                        <td>Min. SDK version</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Max. SDK version</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Total # of activities</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Total # of services</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Total # of broadcast receivers</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Total # of content providers</td>
+                                    </tr>
+                                    <tr>
+								        <td rowspan="4">permission</td>
+                                        <td>Total requested permissions</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Android permissions / Total permissions</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Custom permissions / Total permissions</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>Dangerous permissions / Total permissions</td>
+                                    </tr>                
+                                    <tr>
+                                        <td>API</td>
+                                        <td>Counts of calls to sensitive API packages/modules. See full <a href="results/sensitiveAPICalls.py">list<a/></td>
+                                    </tr>                 
+								</tbody>
+							</table>
+						</div>
+                        <header>
+                            <h3>Dynamic Features</h3>
+                        </header>
+                        <p>Dynamic features were extracted from the API call traces generated by <i>droidmon</i>. They comprise counts of API categories hooked by the tool and listed in a file called <i>hooks.json</i>. Click here to download the list of categories and hooked methods in JSON format&nbsp;&nbsp;&nbsp; <a href="results/hooks.json" class="button icon fa-download">Download</a></p>
+						<hr />
+                        <header>
+                            <h2>Datasets</h2>
+                        </header>
+                        <header>
+                            <h3>Malgenome</h3>
+                        </header>
+                            <p>Total number of apps: <b>1234</b></p>
+                            <p>Click here to download the hashes &nbsp;&nbsp;&nbsp; <a href="results/genome_new_hashes.csv" class="button icon fa-download">Download</a></p>
+                        <header>
+                            <h3>GPlay</h3>
+                        </header>
+                            <p>Total number of apps: <b>1882</b></p>
+                            <p>Click here to download the names of apps &nbsp;&nbsp;&nbsp; <a href="results/GPlay.txt" class="button icon fa-download">Download</a></p>
+                        <header>
+                            <h3>Piggybacking</h3>
+                        </header>
+                            <p>Total number of unique original apps: <b>1355</b></p>
+                            <p>Total number of unique piggybacked apps: <b>1399</b></p>
+                            <p>Click here to download the hashes of both apps organized in pairs of (original_app,piggybacked_app) &nbsp;&nbsp;&nbsp; <a href="results/piggybacking_pairs.csv" class="button icon fa-download">Download</a></p>
+                            <p>Please refer to <a href="https://github.com/serval-snt-uni-lu/Piggybacking">Piggybacking's</a> website for more information about the dataset.
+                        </hr>
+                        <header>
+                            <h2>Results</h2>
+                        </header>
+                            <p>Here you can find a summary of all the scores achieved by all classifiers during all runs</p>         
+                        <header>
+                            <h3>Static Experiments</h3>
+                        </header>
+                            <p>For the static experiments, we included all the scores achieved by all categories of static features using all classifiers for each of the 25 runs. These scores are stored as a Python dictionary that can seamlessly be imported using the command <code>eval(open("file_name.data").read())</code>. Here is a list of all available dictionaries:</p>
+								<ul class="alt">
+									<li>Malgenome+GPlay Static Results (25 runs + All features)&nbsp;&nbsp;&nbsp; <a href="results/static/malgenome_static_all_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Malgenome+GPlay Static Results (25 runs + Basic features)&nbsp;&nbsp;&nbsp; <a href="results/static/malgenome_static_basic_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Malgenome+GPlay Static Results (25 runs + Permission features)&nbsp;&nbsp;&nbsp; <a href="results/static/malgenome_static_permission_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Malgenome+GPlay Static Results (25 runs + API features)&nbsp;&nbsp;&nbsp; <a href="results/static/malgenome_static_api_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Piggybacking Static Results (25 runs + All features)&nbsp;&nbsp;&nbsp; <a href="results/static/piggybacking_static_all_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Piggybacking Static Results (25 runs + Basic features)&nbsp;&nbsp;&nbsp; <a href="results/static/piggybacking_static_basic_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Piggybacking Static Results (25 runs + Permission features)&nbsp;&nbsp;&nbsp; <a href="results/static/piggybacking_static_permission_dict.data" class="button icon fa-download">Download</a></li>
+									<li>Piggybacking Static Results (25 runs + API features)&nbsp;&nbsp;&nbsp; <a href="results/static/piggybacking_static_api_dict.data" class="button icon fa-download">Download</a></li>
+								</ul>
+                    <header>
+                            <h3>Dynamic Experiments</h3>
+                        </header>
+                            <p>We stored all the results of dynamic experiments in a SQLite database that has the following schema:</p>
+                            <pre><code>
+CREATE TABLE learner( 
+    learnerID		INTEGER PRIMARY KEY AUTOINCREMENT, 
+    learnerName 	TEXT
+);
+
+CREATE TABLE run( 
+    runID       	INTEGER, 
+    runDataset  	TEXT,
+    runStart  		TEXT,
+    runEnd		TEXT,
+    runIterations	INTEGER,
+    PRIMARY KEY (runID, runDataset)
+);
+
+CREATE TABLE app( 
+    appID       	INTEGER PRIMARY KEY AUTOINCREMENT, 
+    appName    		TEXT, 
+    appType 		TEXT,
+    appRunID  		INTEGER,
+    appRuns		INTEGER,
+    FOREIGN KEY (appRunID) REFERENCES parent(runID)
+);
+
+CREATE TABLE datapoint ( 
+    dpID        	INTEGER PRIMARY KEY AUTOINCREMENT, 
+    dpLearner		INTEGER,
+    dpIteration		INTEGER,
+    dpRun		INTEGER,
+    dpTimestamp 	TEXT,
+    dpFeature           TEXT,
+    dpType          	TEXT,
+    dpAccuracy		REAL,
+    dpRecall		REAL,
+    dpSpecificity	REAL,
+    dpPrecision		REAL,
+    dpFscore		REAL,
+    FOREIGN KEY (dpLearner) REFERENCES parent(learnerID),
+    FOREIGN KEY (dpRun) REFERENCES parent(runID)
+);
+INSERT INTO learner (learnerName) VALUES ("KNN10");
+INSERT INTO learner (learnerName) VALUES ("KNN25");
+INSERT INTO learner (learnerName) VALUES ("KNN50");
+INSERT INTO learner (learnerName) VALUES ("KNN100");
+INSERT INTO learner (learnerName) VALUES ("KNN250");
+INSERT INTO learner (learnerName) VALUES ("KNN500");
+INSERT INTO learner (learnerName) VALUES ("Trees10");
+INSERT INTO learner (learnerName) VALUES ("Trees25");
+INSERT INTO learner (learnerName) VALUES ("Trees50");
+INSERT INTO learner (learnerName) VALUES ("Trees75");
+INSERT INTO learner (learnerName) VALUES ("Trees100");
+INSERT INTO learner (learnerName) VALUES ("SVM");
+INSERT INTO learner (learnerName) VALUES ("Ensemble");
+                            </code></pre>
+                            <p>You can download the database here&nbsp;&nbsp;&nbsp;<a href="results/dynamic/aion_piggy_25runs.db" class="button icon fa-download">Download</a>
+              
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
